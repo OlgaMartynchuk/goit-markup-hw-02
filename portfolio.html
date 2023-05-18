@@ -4,26 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="pace-header">
       <!-- nav -->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href=""></a>Portfolio</li>
-          <li><a href="">Contacts</a></li>
+      <nav class="pace-nav">
+        <a class="logo link" href="./portfolio.html"
+          ><span class="logo-navy">Web</span>Studio
+        </a>
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Portfolio</a>
+          </li>
+          <li><a class="menu-link link" href="">Contacts</a></li>
         </ul>
       </nav>
       <!-- /nav -->
       <!-- address -->
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="list">
+          <li>
+            <a class="mail-info link" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="phone-number link" href="tel:+110001111111"
+              >+11 (000) 111-11-11
+            </a>
+          </li>
         </ul>
       </address>
       <!-- /address -->
@@ -32,27 +54,30 @@
 
     <!-- main -->
     <main>
+      <!-- section-filter -->
       <section>
-        <h1>project filter</h1>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+        <h1 hidden>project filter</h1>
+        <ul class="list">
+          <li><button class="filter-btn" type="button">All</button></li>
+          <li><button class="filter-btn" type="button">App</button></li>
+          <li><button class="filter-btn" type="button">Design</button></li>
+          <li><button class="filter-btn" type="button">Marketing</button></li>
         </ul>
       </section>
+      <!-- /section-filter -->
 
+      <!-- section-one -->
       <section>
-        <h2></h2>
-        <ul>
+        <h2 hidden>Project cards first line</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio-images/cart1.jpg"
               alt="Banking Application Pages"
               width="360"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="subtitle">Banking App Interface Concept</h3>
+            <p class="description description-theme-light">App</p>
           </li>
           <li>
             <img
@@ -60,8 +85,8 @@
               alt="Smartphone screen reads the QR-code of the terminal for payment"
               width="360"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="subtitle">Cashless Payment</h3>
+            <p class="description description-theme-light">Marketing</p>
           </li>
           <li>
             <img
@@ -69,23 +94,25 @@
               alt="computer and phone with application page"
               width="360"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="subtitle">Meditation App</h3>
+            <p class="description description-theme-light">App</p>
           </li>
         </ul>
       </section>
+      <!-- /section-one -->
 
+      <!-- section-two -->
       <section>
-        <h2></h2>
-        <ul>
+        <h2 hidden>Project cards second line</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio-images/card4.jpg"
               alt="interior of a car with a steering wheel and a smartphone with navigation"
               width="360"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="subtitle">Taxi Service</h3>
+            <p class="description description-theme-light">Marketing</p>
           </li>
           <li>
             <img
@@ -93,8 +120,8 @@
               alt="smartphone and five screen savers on the moon theme"
               width="360"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="subtitle">Screen Illustrations</h3>
+            <p class="description description-theme-light">Design</p>
           </li>
           <li>
             <img
@@ -102,21 +129,60 @@
               alt="a student on the street in an orange sweater and with an earpiece in her ear, holding a smartphone in her hand"
               width="360"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="subtitle">Online Courses</h3>
+            <p class="description description-theme-light">Marketing</p>
           </li>
         </ul>
       </section>
+      <!-- /section-two -->
 
+      <!-- section-three-->
       <section>
-        <h2></h2>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+        <h2 hidden>Project cards third line</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/portfolio-images/card7.jpg"
+              alt="advertising cards with the image of a man, a woman, a phone and a screen"
+              width="360"
+            />
+            <h3 class="subtitle">Instagram Stories Concept</h3>
+            <p class="description description-theme-light">Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-images/card8.jpg"
+              alt="a woman carries a white bag with vegetables and fruits"
+              width="360"
+            />
+            <h3 class="subtitle">Organic Food</h3>
+            <p class="description description-theme-light">Web Site</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-images/card9.jpg"
+              alt="in the hands of a man a cup into which he pours coffee"
+              width="360"
+            />
+            <h3 class="subtitle">Fresh Coffee</h3>
+            <p class="description description-theme-light">Web Site</p>
+          </li>
         </ul>
       </section>
+      <!-- /section-three-->
     </main>
     <!-- /main -->
+
+    <!-- footer -->
+    <footer>
+      <a class="logo link" href="./portfolio.html"
+        ><span class="logo-navy">Web</span>Studio
+      </a>
+      <p class="description description-theme-dark">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+    </footer>
+    <!-- /footer -->
   </body>
 </html>
