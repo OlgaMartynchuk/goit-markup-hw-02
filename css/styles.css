@@ -1,8 +1,11 @@
 :root{
   --primary-text-color: #344455;
-  --title-text-color:#2e2f42;
+  --title-text-color: #2e2f42;
   --primary-bgd-color: #ffffff;
   --accent-color: #404bbf;
+  --second-text-color: #f4f4fd;
+  --button-color: #4d5ae5;
+  --second-bgd-color: #e5e5e5;
 }
 
 .list{
@@ -27,10 +30,10 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--button-color);
 }
 .logo-navy{
-    color: #2e2f42;
+    color: var(--title-text-color);
 }
 .subtitle {
     font-weight: 500;
@@ -47,7 +50,7 @@ body{
 }
 
 .description-theme-dark {
-    color: #f4f4fd;
+    color: var(--second-text-color);
 }
 
 .section-title {
@@ -94,7 +97,7 @@ body{
 /* ===/HEADER=== */
 /* ===HERO=== */
 .hero{
-    background-color: #2e2f42;
+    background-color: var(--title-text-color);
 }
 .hero-title {
     font-weight: 700;
@@ -102,7 +105,7 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;
+    color: var(--primary-bgd-color);
 }
 
 .modal-btn {
@@ -111,14 +114,14 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4d5ae5;
+    color: var(--primary-bgd-color);
+    background-color: var(--button-color);
     cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color: #404bbf;
+    background-color: var(--accent-color);
 }
 /* ===/HERO=== */
 /* ===MAIN=== */
@@ -128,23 +131,23 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background: #f4f4fd;
+    color: var(--button-color);
+    background: var(--second-text-color);
     cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus{
-    color: #ffffff;
-    background: #404bbf;
+    color: var(--primary-bgd-color);
+    background: var(--accent-color);
 }
 .team{
-    background-color: #f4f4fd;
+    background-color: var(--second-text-color);
 }
 .team-list{
    background-color: var(--primary-bgd-color); 
 }
 .main-portfolio{
-    background-color: #e5e5e5;
+    background-color: var(--second-bgd-color);
 }
 .card{
     background-color: var(--primary-bgd-color);
@@ -152,9 +155,9 @@ body{
 /* ===/MAIN=== */
 /* ===FOOTER=== */
    .pace-footer{
-    background-color:#2e2f42;
+    background-color: var(--primary-text-color);
    }
    .logo-white{
-    color: #f4f4fd;
+    color: var(--second-text-color);
    }
 /* ===/FOOTER=== */
