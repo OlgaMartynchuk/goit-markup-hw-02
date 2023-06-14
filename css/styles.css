@@ -1,5 +1,5 @@
 :root{
-  --primary-text-color: #344455;
+  --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --primary-bgd-color: #ffffff;
   --accent-color: #404bbf;
@@ -15,6 +15,7 @@
 
 .link{
     text-decoration: none;
+    background-color: var(--primary-bgd-color);
 }
 
 body{
@@ -47,6 +48,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 .description-theme-dark {
@@ -155,7 +157,7 @@ body{
 /* ===/MAIN=== */
 /* ===FOOTER=== */
    .pace-footer{
-    background-color: var(--primary-text-color);
+    background-color: var(--title-text-color);
    }
    .logo-white{
     color: var(--second-text-color);
